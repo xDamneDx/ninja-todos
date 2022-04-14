@@ -17,6 +17,43 @@
     <title>Ninja Todos</title>
   </head>
   <body>
+    <div class="container">
+      <header class="text-center text-light my-4">
+        <h1 class="mb-4">Todo List</h1>
+        <form class="search">
+          <input
+            class="form-control m-auto"
+            type="text"
+            name="search"
+            placeholder="search todos"
+          />
+        </form>
+        <ul class="todos list-group mx-auto">
+          <li
+            class="list-group-item text-light d-flex justify-content-between align-items-center"
+          >
+            <span>play mariokart</span>
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+          <li
+            class="list-group-item text-light d-flex justify-content-between align-items-center"
+          >
+            <span>defeat ganon in zelda</span>
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+          <li
+            class="list-group-item text-light d-flex justify-content-between align-items-center"
+          >
+            <span>make a veggie pie</span>
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+        </ul>
+        <form class="add text-center my-4">
+          <label class="text-light pb-2">Add a new todo...</label>
+          <input class="form-control m-auto" type="text" name="add" />
+        </form>
+      </header>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
